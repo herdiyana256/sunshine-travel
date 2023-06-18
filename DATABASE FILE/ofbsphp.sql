@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 05, 2022 at 06:36 PM
+-- Generation Time: Jul 05, 2022 at 06:36 PM  
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -38,9 +38,13 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `admin_uname`, `admin_email`, `admin_pwd`) VALUES
-(1, 'admin', 'admin@mail.com', '$2y$10$KRXGkY.dxYjD8FLZclW/Tu04wl76lD7IA4Z3nAsxtpdZxHNbYo4ZW');
+(1, 'admin', 'miaarusli@gmail.com', '$2y$10$KRXGkY.dxYjD8FLZclW/Tu04wl76lD7IA4Z3nAsxtpdZxHNbYo4ZW');
+
 
 -- --------------------------------------------------------
+
+
+
 
 --
 -- Table structure for table `airline`
@@ -84,7 +88,7 @@ CREATE TABLE `cities` (
 --
 
 INSERT INTO `cities` (`city`) VALUES
-('San Jose'),
+('Bangkok'),
 ('Chicago'),
 ('Olisphis'),
 ('Shiburn'),
